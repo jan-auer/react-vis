@@ -14,13 +14,11 @@ const {
   HeatmapChart,
   LineChart,
   LineChartWithStyle,
-  LineChartGL,
   LineMarkChart,
   StackedVerticalBarChart,
   StackedHorizontalBarChart,
   StackedHistogram,
   ScatterplotChart,
-  ScatterplotGLChart,
   WidthHeightMarginChart
 } = showCase;
 
@@ -41,16 +39,10 @@ const PLOTS = [{
   sourceLink: 'https://github.com/uber/react-vis/blob/master/src/plot/series/line-mark-series.js',
   docsLink: 'http://uber.github.io/react-vis/#/documentation/xy-plot-series/line-series'
 }, {
-  component: LineChartGL,
-  name: 'Line Series GL'
-}, {
   component: ScatterplotChart,
   name: 'Mark Series',
   sourceLink: 'https://github.com/uber/react-vis/blob/master/src/plot/series/mark-series.js',
   docsLink: 'http://uber.github.io/react-vis/#/documentation/xy-plot-series/mark-series'
-}, {
-  component: ScatterplotGLChart,
-  name: 'Mark Series GL'
 }, {
   component: AreaChart,
   name: 'Area Series',

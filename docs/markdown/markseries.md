@@ -1,4 +1,4 @@
-## MarkSeries & MarkSeriesGL
+## MarkSeries
 
 <!-- INJECT:"ScatterplotChart" -->
 
@@ -30,15 +30,6 @@ const myData = [
   {x: 2.5, y: 7, size: 4}
 ]
 ```
-
-react-vis offers two different types of MarkSeries, one that renders SVG and one that renders WebGL.
-The SVG mode is accessed by using the normal `MarkSeries`, just as above, while the WebGL mode is used by simply calling
-`MarkSeriesGL` instead of `MarkSeries`. Important tip! It is most effective to hover over your points using onNearestXY rather
-than onValueMouseOver.
-
-<!-- INJECT:"ScatterplotGLChart" -->
-
-**NOTE**: using the GL version of this layer disables animation
 
 ## API
 
@@ -112,15 +103,3 @@ Type: `function(info)`
 
 #### animation (optional)  
 See the [XYPlot](xy-plot.md)'s `animation` section for more information.
-
-## MarkSeriesGL API Additions
-
-In addition to the above api the GL version of markSeries exposes several additional props.
-
-#### seriesId (REQUIRED)
-Type: `string`
-This string is used by deck.gl to identify which layer is being requested to render.
-
-#### outline (optional)
-Type: `Boolean`
-This boolean determines whether or not to switch to the outline mode for the markes
