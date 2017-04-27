@@ -20,6 +20,7 @@
 
 import ComplexChart from './plot/complex-chart';
 import LineChart from './plot/line-chart';
+import LineChartGL from './plot/line-chart-gl';
 import LineChartWithStyle from './plot/line-chart-with-style';
 import LineMarkChart from './plot/linemark-chart';
 import BarChart from './plot/bar-chart';
@@ -31,6 +32,7 @@ import AreaChart from './plot/area-chart';
 import AreaChartElevated from './plot/area-chart-elevated';
 import ScatterplotChart from './plot/scatterplot';
 import FauxScatterplotChart from './plot/faux-radial-scatterplot';
+import ScatterplotGLChart from './plot/scatterplot-gl';
 import HeatmapChart from './plot/heatmap-chart';
 import WidthHeightMarginChart from './plot/width-height-margin';
 import CustomScales from './plot/custom-scales';
@@ -81,6 +83,7 @@ import TreemapExample from './treemap/dynamic-treemap';
 export const showCase = {
   ComplexChart,
   LineChart,
+  LineChartGL,
   LineChartWithStyle,
   LineMarkChart,
   BarChart,
@@ -93,6 +96,7 @@ export const showCase = {
   AreaChartElevated,
   FauxScatterplotChart,
   ScatterplotChart,
+  ScatterplotGLChart,
   HeatmapChart,
   WidthHeightMarginChart,
   CustomScales,

@@ -1,4 +1,4 @@
-## MarkSeries
+## MarkSeries & MarkSeriesCanvas
 
 <!-- INJECT:"ScatterplotChart" -->
 
@@ -30,6 +30,12 @@ const myData = [
   {x: 2.5, y: 7, size: 4}
 ]
 ```
+
+react-vis offers two different types of MarkSeries, one that renders SVG and one that renders Canvas.
+The SVG mode is accessed by using the normal `MarkSeries`, just as above, while the Canvas mode is used by simply calling
+`MarkSeriesCanvas` instead of `MarkSeries`. 
+
+<!-- INJECT:"ScatterplotCanvasChart" -->
 
 ## API
 

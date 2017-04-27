@@ -2,6 +2,12 @@
 
 <!-- INJECT:"LineChart" -->
 
+react-vis offers two different types of LineSeries, one that renders SVG and one that renders Canvas.
+The SVG mode is accessed by using the normal `LineSeries`, just as above, while the Canvas mode is used by simply calling
+`LineSeriesCanvas` instead of `LineSeries`.
+
+<!-- INJECT:"LineCanvasGL" -->
+
 ## API Reference
 
 ##### strokeDasharray (optional)
